@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3261e40d-542a-4277-8365-7d56abdca607}</ProjectGuid>
+    <RootNamespace>My04algorithmsandproblemsolvinglevel1solutions</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="04-algorithms-and-problem-solving-level-1-solutions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P02_PrintNameFromUser.h" />
+    <ClInclude Include="P01_PrintYourName.h" />
+    <ClInclude Include="P03_OddOrEven.h" />
+    <ClInclude Include="P04_HireADriverCase1.h" />
+    <ClInclude Include="P05_HireADriverCase2.h" />
+    <ClInclude Include="P06_FullName.h" />
+    <ClInclude Include="P07_HalfNumber.h" />
+    <ClInclude Include="P08_PassOrFail.h" />
+    <ClInclude Include="P09_SumOf3Numbers.h" />
+    <ClInclude Include="P10_AverageOf3Marks.h" />
+    <ClInclude Include="P11_AveragePassFail.h" />
+    <ClInclude Include="P12_MaxOf2Numbers.h" />
+    <ClInclude Include="P13_MaxOf3Numbers.h" />
+    <ClInclude Include="P14_SwapNumbers.h" />
+    <ClInclude Include="P15_RectangleArea.h" />
+    <ClInclude Include="P16_RectangleAreaThroughDiagonalAndSideArea.h" />
+    <ClInclude Include="P17_TriangleArea.h" />
+    <ClInclude Include="P18_CircleArea.h" />
+    <ClInclude Include="P19_CircleAreaThroughDiameter.h" />
+    <ClInclude Include="P20_CircleAreaInscribedInASquare.h" />
+    <ClInclude Include="P21_CircleAreaAlongTheCircumference.h" />
+    <ClInclude Include="P22_CircleAreaInscribedInAnIsoscelesTriangle.h" />
+    <ClInclude Include="P23_CircleAreaCircleDescribedAroundAnArbitraryTriangle.h" />
+    <ClInclude Include="P24_ValidateAgeBetween18And45.h" />
+    <ClInclude Include="P25_ReadUntilAgeBetween18And45.h" />
+    <ClInclude Include="P26_PrintNumbersFrom1ToN.h" />
+    <ClInclude Include="P27_PrintNumbersFromNTo1.h" />
+    <ClInclude Include="P28_PrintSumOddNumbersFrom1ToN.h" />
+    <ClInclude Include="P29_PrintSumEvenNumbersFrom1ToN.h" />
+    <ClInclude Include="P30_FactorialOfN.h" />
+    <ClInclude Include="P31_PowerOf2_3_4.h" />
+    <ClInclude Include="P32_PowerOfM.h" />
+    <ClInclude Include="P33_GradeA_B_C_D_E_F.h" />
+    <ClInclude Include="P34_CommissionPercentage.h" />
+    <ClInclude Include="P35_PiggyBankCalculator.h" />
+    <ClInclude Include="P36_SimpleCalculator.h" />
+    <ClInclude Include="P37_SumUntilMinus99.h" />
+    <ClInclude Include="P38_IsPrimeNumber.h" />
+    <ClInclude Include="P39_PayRemainder.h" />
+    <ClInclude Include="P40_ServiceFeeAndSalesTax.h" />
+    <ClInclude Include="P41_WeeksAndDays.h" />
+    <ClInclude Include="P42_TaskDurationInSeconds.h" />
+    <ClInclude Include="P43_SecondsToDaysHoursMinutesSeconds.h" />
+    <ClInclude Include="P44_DayOfWeek.h" />
+    <ClInclude Include="P45_MonthOfYear.h" />
+    <ClInclude Include="P46_PrintLettersFromAToZ.h" />
+    <ClInclude Include="P47_LoanInstalmentMonths.h" />
+    <ClInclude Include="P48_MonthlyLoanInstallment.h" />
+    <ClInclude Include="P49_ATMPIN.h" />
+    <ClInclude Include="P50_ATMPIN3Times.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

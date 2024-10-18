@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="04-algorithms-and-problem-solving-level-1-solutions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P01_PrintYourName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P02_PrintNameFromUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P03_OddOrEven.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P04_HireADriverCase1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P05_HireADriverCase2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P06_FullName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P07_HalfNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P08_PassOrFail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P09_SumOf3Numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P10_AverageOf3Marks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P11_AveragePassFail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P12_MaxOf2Numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P13_MaxOf3Numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P14_SwapNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P15_RectangleArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P16_RectangleAreaThroughDiagonalAndSideArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P17_TriangleArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P18_CircleArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P19_CircleAreaThroughDiameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P20_CircleAreaInscribedInASquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P21_CircleAreaAlongTheCircumference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P22_CircleAreaInscribedInAnIsoscelesTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P23_CircleAreaCircleDescribedAroundAnArbitraryTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P24_ValidateAgeBetween18And45.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P25_ReadUntilAgeBetween18And45.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P26_PrintNumbersFrom1ToN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P27_PrintNumbersFromNTo1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P28_PrintSumOddNumbersFrom1ToN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P29_PrintSumEvenNumbersFrom1ToN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P30_FactorialOfN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P31_PowerOf2_3_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P32_PowerOfM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P33_GradeA_B_C_D_E_F.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P34_CommissionPercentage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P35_PiggyBankCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P36_SimpleCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P37_SumUntilMinus99.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P38_IsPrimeNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P39_PayRemainder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P40_ServiceFeeAndSalesTax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P41_WeeksAndDays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P42_TaskDurationInSeconds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P43_SecondsToDaysHoursMinutesSeconds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P44_DayOfWeek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P45_MonthOfYear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P46_PrintLettersFromAToZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P47_LoanInstalmentMonths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P48_MonthlyLoanInstallment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P49_ATMPIN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P50_ATMPIN3Times.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
